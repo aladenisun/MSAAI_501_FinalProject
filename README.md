@@ -22,14 +22,14 @@ The project aims to:
 - LSTM (sequential language modeling)
 - BERT (transformer-based contextual model)
 ### Techniques Applied
-- NLP preprocessing (tokenization, stopword removal, lemmatization)
-- TF-IDF vectorization for classical ML models
+- NLP preprocessing
+- Vectorization for classical ML models
 - Embeddings for deep learning models
 - Model comparison using accuracy, precision, recall, and F1-score
 - Time-series and regional trend exploration
 
 ## Expected System Outputs
-Given a news article (title + body), the system returns:
+Given a news sources, the system returns:
 - Real / Fake classification with confidence scores
 - AI-Generated / Human-Written classification with confidence scores
 - Key linguistic indicators that influenced predictions
@@ -42,11 +42,13 @@ Given a news article (title + body), the system returns:
 The project uses two openly available Kaggle datasets.
 - Fake and Real News Dataset (ISOT): 
   - Bisaillon, C. (2024). Fake and real news dataset [Data set]. Kaggle.
-https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+    https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
 - Gen AI Misinformation Detection Dataset:
   - Soundankar, A. (2025). Gen AI misinformation detection dataset [Data set]. Kaggle.
     https://www.kaggle.com/datasets/atharvasoundankar/gen-ai-misinformation-detection-datase-20242025
+  - Benaouda, W. (2025). AI-ISOT dataset [Dataset]. Kaggle.
+    https://www.kaggle.com/datasets/walidbenaouda/ai-isot-dataset
 
 ## How to Run
 - (TODO: Will Update)
